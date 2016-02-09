@@ -9,6 +9,15 @@
     <Import_RootNamespace>Levolution.Data.Shared</Import_RootNamespace>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="$(MSBuildThisFileDirectory)Class1.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Grid\GridExtensions.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Grid\IGrid.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Grid\IGridItem.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Identifiable\IdentifiableExtensions.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Identifiable\IIdentifiable.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)INameable.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Pipeline\IProcessor.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Probable\IProbable.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Tree\IInternalNode.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Tree\INode.cs" />
   </ItemGroup>
 </Project>
