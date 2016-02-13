@@ -1,9 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Linq;
-using System.Text;
 
-namespace Levolution.Data
+namespace Levolution.Data.Grid
 {
     public static class GridExtensions
     {

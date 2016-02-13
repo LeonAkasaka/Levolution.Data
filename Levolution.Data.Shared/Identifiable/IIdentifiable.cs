@@ -1,7 +1,4 @@
-﻿using System;
-using Levolution.Data;
-
-namespace Levolution.Data
+﻿namespace Levolution.Data.Identity
 {
     /// <summary>
     /// 
