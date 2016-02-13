@@ -1,4 +1,4 @@
-﻿namespace Levolution.Data
+﻿namespace Levolution.Data.Name
 {
     /// <summary>
     /// 

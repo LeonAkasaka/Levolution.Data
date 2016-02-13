@@ -15,11 +15,11 @@
     <Compile Include="$(MSBuildThisFileDirectory)Grid\IGridItem.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Identifiable\IdentifiableExtensions.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Identifiable\IIdentifiable.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)INameable.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Name\INameable.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Pipeline\IProcessor.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)Probable\IProbable.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)Probable\ProbableExtensions.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Tree\IInternalNode.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Tree\INode.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Probability\IProbable.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Probability\ProbableExtensions.cs" />
   </ItemGroup>
 </Project>
