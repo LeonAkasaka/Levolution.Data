@@ -17,9 +17,9 @@
     <Compile Include="$(MSBuildThisFileDirectory)Identifiable\IIdentifiable.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Name\INameable.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Pipeline\IProcessor.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)Tree\IInternalNode.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)Tree\INode.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Probability\IProbable.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Probability\ProbableExtensions.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Tree\ITreeItem.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Tree\ITree.cs" />
   </ItemGroup>
 </Project>

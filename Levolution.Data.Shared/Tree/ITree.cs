@@ -2,16 +2,16 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Levolution.Data
+namespace Levolution.Data.Tree
 {
     /// <summary>
     /// 
     /// </summary>
-    public interface IInternalNode : INode
+    public interface ITree
     {
         /// <summary>
         /// 
         /// </summary>
-        IEnumerable<INode> Children { get; }
+        ITreeItem RootItem { get; }
     }
 }
