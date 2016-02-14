@@ -19,7 +19,6 @@
     <Compile Include="$(MSBuildThisFileDirectory)Identifiable\IIdentifiable.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Name\INameable.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Node\IBackwardNode.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)Node\IBidirectionalNode.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Node\IForwardNode.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Node\INode.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Pipeline\IProcessor.cs" />
