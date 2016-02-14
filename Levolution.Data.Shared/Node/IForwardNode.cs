@@ -1,7 +1,7 @@
 ﻿namespace Levolution.Data.Node
 {
-    public interface IForwardNode : INode
+    public interface IForwardNode<TNode> : INode where TNode : INode
     {
-        INode Next { get; }
+        TNode Next { get; }
     }
 }
