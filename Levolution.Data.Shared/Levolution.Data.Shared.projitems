@@ -19,6 +19,7 @@
     <Compile Include="$(MSBuildThisFileDirectory)Pipeline\IProcessor.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Probability\IProbable.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Probability\ProbableExtensions.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Timeline\ITimeline.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Tree\ITreeItem.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Tree\ITree.cs" />
   </ItemGroup>
