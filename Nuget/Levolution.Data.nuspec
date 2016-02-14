@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>Levolution.Data</id>
+    <version>0.0.1.0</version>
+    <authors>Leon Akasaka</authors>
+    <owners>Leon Akasaka</owners>
+    <licenseUrl>https://github.com/LeonAkasaka/Levolution.Data/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/LeonAkasaka/Levolution.Data</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Levolution Data.</description>
+    <releaseNotes></releaseNotes>
+    <copyright>Copyright 2016</copyright>
+    <tags>Levolution</tags>
+  </metadata>
+  <files>
+    <file src="..\Levolution.Data.Net35\bin\Release\*.*" target="lib\net20" />
+    <file src="..\Levolution.Data.Pcl\bin\Release\*.*" target="lib\net40" />
+  </files>
+</package>
