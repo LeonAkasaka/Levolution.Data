@@ -9,6 +9,8 @@
     <Import_RootNamespace>Levolution.Data.Shared</Import_RootNamespace>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)Color\ColorExtensions.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Color\IColor.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Converter\IConverter.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Grid\GridExtensions.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Grid\IGrid.cs" />
@@ -16,7 +18,15 @@
     <Compile Include="$(MSBuildThisFileDirectory)Identifiable\IdentifiableExtensions.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Identifiable\IIdentifiable.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Name\INameable.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Node\IBackwardNode.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Node\IBidirectionalNode.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Node\IForwardNode.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Node\INode.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Pipeline\IProcessor.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Plane\IPoist.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Plane\IRectangle.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Plane\ISize.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Plane\RectangeExtensions.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Probability\IProbable.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Probability\ProbableExtensions.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Timeline\ITimeline.cs" />
