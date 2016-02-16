@@ -6,7 +6,7 @@
     <SharedGUID>dedcc789-f58f-4153-b3c4-aa2c759e88c2</SharedGUID>
   </PropertyGroup>
   <PropertyGroup Label="Configuration">
-    <Import_RootNamespace>Levolution.Data.Shared</Import_RootNamespace>
+    <Import_RootNamespace>Levolution.Data</Import_RootNamespace>
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="$(MSBuildThisFileDirectory)Color\ColorExtensions.cs" />
