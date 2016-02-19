@@ -29,6 +29,8 @@
     <Compile Include="$(MSBuildThisFileDirectory)Probability\IProbable.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Probability\ProbableExtensions.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Timeline\ITimeline.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Timeline\TimelineExtensions.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Timeline\TimelineState.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Tree\ITreeItem.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Tree\ITree.cs" />
   </ItemGroup>
