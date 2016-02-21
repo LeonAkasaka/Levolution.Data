@@ -17,7 +17,6 @@
     <Compile Include="$(MSBuildThisFileDirectory)Grid\IGridItem.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Identifiable\IdentifiableExtensions.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Identifiable\IIdentifiable.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)IRange.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Name\INameable.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Node\IBackwardNode.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Node\IForwardNode.cs" />
@@ -29,6 +28,8 @@
     <Compile Include="$(MSBuildThisFileDirectory)Plane\RectangeExtensions.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Probability\IProbable.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Probability\ProbableExtensions.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Range\IRange.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Range\RangeExtensions.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Timeline\ITimeline.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Timeline\TimelineExtensions.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Timeline\TimelineState.cs" />
