@@ -24,7 +24,7 @@ namespace Levolution.Data.Plane
         /// <typeparam name="T"></typeparam>
         /// <param name="rect"></param>
         /// <returns></returns>
-        public static ISize<T> GetSizet<T>(this IRectangle<T> rect)
+        public static ISize<T> GetSize<T>(this IRectangle<T> rect)
             => new SizeInternal<T>(rect.Width, rect.Height);
 
         private class PointInternal<T> : IPoint<T>
