@@ -5,13 +5,13 @@
     /// </summary>
     /// <typeparam name="TInput"></typeparam>
     /// <typeparam name="TOutput"></typeparam>
-    public interface IConverter<TInput, TOutput>
+    public interface IInvertibleConverter<TInput, TOutput> : IConverter<TInput, TOutput>
     {
         /// <summary>
         /// 
         /// </summary>
         /// <param name="value"></param>
         /// <returns></returns>
-        TOutput Convert(TInput value);
+        TInput ConvertBack(TOutput value);
     }
 }
